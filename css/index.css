@@ -396,13 +396,13 @@ hr {
 }
 
 .location__name {
-    font-weight: var(--font-middle-bold);
     margin-top: 1rem;
 }
 
 .location__info {
     margin-top: 0.5rem;
     color: var(--gray-color);
+    font-size: var(--font-semi-size);
 }
 
 /* ===== Footer ===== */
@@ -507,7 +507,7 @@ hr {
     .nav__logo_name {
         opacity: 1;
     }
-    
+
     .section {
         height: 300px;
     }
@@ -547,6 +547,9 @@ hr {
 @media screen and (max-width :480px) {
     .location__container {
         grid-template-columns: repeat(2,4fr);
+    }
+    .location__info {
+        font-size: var(--font-semi-size);
     }
 }
 
