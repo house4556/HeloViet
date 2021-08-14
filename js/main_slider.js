@@ -16,6 +16,10 @@ $(document).ready(function(){
                 items: 1,
                 nav: false
             },
+            468 : {
+                items: 2,
+                nav: false
+            },
             768: {
                 items: 3,
                 nav: false
@@ -42,7 +46,11 @@ $(document).ready(function(){
         ],
         responsive: {
             0: {
-                items: 1,
+                items: 2,
+                nav: false
+            },
+            468 : {
+                items: 2,
                 nav: false
             },
             768: {

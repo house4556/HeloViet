@@ -275,13 +275,14 @@ hr {
 }
 
 .aside__shop_box_list {
-    box-shadow: 3px 3px 10px var(--ltgray-color), -1px -1px 3px var(--ltgray-color);
+    box-shadow: 3px 3px 10px var(--gray-color), -3px -3px 5px var(--ltgray-color);
     border-radius: 1rem;
     padding: .5rem;
 }
 
 .shop__list_img {
     border-radius: .75rem;
+    /* height: 130px; */
 }
 
 .shop__list_info {
@@ -553,3 +554,17 @@ hr {
     }
 }
 
+
+/* DarkMode */
+.darkmode--activated .section,
+.darkmode--activated .location__img,
+.darkmode--activated .aside__alliance_container,
+.darkmode--activated .shop__list_img,
+.darkmode--activated .shop__list_rating i,
+.darkmode--activated .shop__cate_btn {
+    filter: invert(1);
+}
+
+.darkmode-layer, .darkmode-toggle {
+    z-index: 200;
+}
