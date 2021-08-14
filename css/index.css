@@ -251,7 +251,7 @@ hr {
 /* ===== Aside ===== */
 .aside {
     margin-top: 2rem;
-    text-align-last: center;
+    text-align: center;
 }
 
 .aside__title {
@@ -365,7 +365,7 @@ hr {
 }
 
 .location {
-    text-align-last: center;
+    text-align: center;
     margin: 4rem 0;
 }
 
